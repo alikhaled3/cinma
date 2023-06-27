@@ -1,0 +1,61 @@
+*{
+    font-family: 'Roboto Slab', serif;
+
+}
+
+:root{
+    --bg-main:#000000;
+    --color-main:#fff;
+    --light-bg:#24baef;
+    --border-color:#949cb0;
+    --text-color:#ffd900;
+
+}
+
+
+body{
+    background-color: var(--bg-main);
+    color: var(--color-main);
+
+}
+
+
+.brdr{
+    background-color: var(--color-main);
+    height: 1px;
+}
+
+.vote{
+    
+    margin: 9px;
+    border-radius: 50px;
+    padding: 6px;
+    background-color: var(--text-color);
+}
+.shadoww:hover{ 
+    transition: all 1s;
+    box-shadow: 0 4px 8px 0 rgba(153, 153, 153, 0.2), 0 6px 20px 0 rgba(139, 139, 139, 0.19);
+}
+
+
+.txt{
+    color: var(--text-color);
+
+}
+
+.sizee{
+    font-size: 40px;
+font-weight: 600;
+}
+
+.txt:hover{
+    transition: all 1s;
+    color: antiquewhite;
+}
+
+.fwig{
+    font-weight: 900;
+}
+.bg112{
+    background-color: #0000009d;
+}
